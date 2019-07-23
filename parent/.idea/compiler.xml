@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="order-client" />
+        <module name="order-common" />
+        <module name="order-server" />
+        <module name="product-client" />
+        <module name="product-common" />
+        <module name="product-server" />
+        <module name="user-client" />
+        <module name="user-common" />
+        <module name="user-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-client-order" target="1.8" />
+      <module name="eureka-client-product" target="1.8" />
+      <module name="eureka-client-user" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="order-client" target="1.8" />
+      <module name="order-common" target="1.8" />
+      <module name="order-server" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="product-client" target="1.8" />
+      <module name="product-common" target="1.8" />
+      <module name="product-server" target="1.8" />
+      <module name="user-client" target="1.8" />
+      <module name="user-common" target="1.8" />
+      <module name="user-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
